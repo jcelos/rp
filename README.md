@@ -496,6 +496,45 @@ Implementação de heap binário (min e max) com operações de prioridade.
 - Fila de prioridade
 - Algoritmo Heap Sort
 
+### 📁 Exercício 18 - Ordenação de Dominó
+**Arquivo:** `exercicio18-ordenacao-domino.ts`
+
+Sistema completo de ordenação de peças de dominó com **retorno exclusivo em arrays**.
+
+**Conceitos:**
+- Estruturas de dados personalizadas (dominó) com arrays
+- Algoritmos de ordenação com critérios customizados
+- Ordenação por valor, posição e tipo (duplas primeiro)
+- Busca e filtros especializados
+- Conversão de estruturas para arrays multidimensionais
+- Manipulação de dados sem strings ou objetos literais
+- Geração de padrões e conjuntos em formato array
+
+---
+
+## 🎯 PROBLEMA ACADÊMICO ESPECÍFICO
+
+### 📁 Figurinhas de Sheldon
+**Arquivo:** `figurinhas-sheldon.ts`
+
+**Problema Oficial da UTFPR** - Implementação da classe Album para gerenciar coleção de figurinhas.
+
+**Especificações:**
+- `getRepeated()`: Retorna figurinhas repetidas ordenadas
+- `getWanted(paratroca)`: Retorna figurinhas faltantes da lista de troca
+- Implementação sem métodos nativos
+- Ordenação manual com Bubble Sort
+- Lógica de contagem e filtragem personalizada
+
+**Autor:** Prof. Dr. Eleandro Maschio - UTFPR Campus Guarapuava
+
+**Conceitos:**
+- Análise de frequência de elementos
+- Identificação de duplicatas e faltantes
+- Algoritmos de ordenação manuais
+- Manipulação de arrays sem métodos nativos
+- Lógica de comparação e filtragem
+
 ## Como Executar os Exercícios
 
 ### Pré-requisitos
@@ -799,12 +838,12 @@ A solução eficiente usa a fórmula recursiva:
 
 ## Estatísticas da Coleção
 
-- **Total de Exercícios**: 32 arquivos principais
-- **Linhas de Código**: ~12.000+ linhas
-- **Classes Implementadas**: 65+ classes
-- **Algoritmos Cobertos**: 150+ algoritmos diferentes
+- **Total de Exercícios**: 33 arquivos principais
+- **Linhas de Código**: ~12.500+ linhas
+- **Classes Implementadas**: 66+ classes
+- **Algoritmos Cobertos**: 155+ algoritmos diferentes
 - **Estruturas de Dados**: 25+ implementações completas
-- **Tempo Estimado de Estudo**: 60-80 horas
+- **Tempo Estimado de Estudo**: 65-85 horas
 - **Aplicações Práticas**: Sistemas reais, entrevistas técnicas, competição, pesquisa
 
 ### Distribuição por Categoria
@@ -813,7 +852,8 @@ A solução eficiente usa a fórmula recursiva:
 - 🔴 **Avançados**: 5 exercícios (algoritmos complexos)
 - 🏆 **Desafios**: 6 exercícios (aplicações temáticas)
 - 📚 **Originais**: 10 exercícios + Josephus clássico
-- 🔧 **Estruturas Fundamentais**: 7 exercícios (CS core)
+- 🔧 **Estruturas Fundamentais**: 8 exercícios (CS core + dominó)
+- 🎯 **Problema Acadêmico**: 1 exercício (UTFPR oficial)
 
 ## Aplicações no Mundo Real
 
