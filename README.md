@@ -535,6 +535,58 @@ Sistema completo de ordenação de peças de dominó com **retorno exclusivo em 
 - Manipulação de arrays sem métodos nativos
 - Lógica de comparação e filtragem
 
+---
+
+## 🎯 EXERCÍCIOS TEMÁTICOS AVANÇADOS (4 exercícios)
+
+### 📁 Exercício 19 - Coleção de Cartas Pokemon
+**Arquivo:** `exercicio19-colecao-pokemon.ts`
+
+Sistema avançado de gerenciamento de coleção de cartas com análise por raridade e tipo.
+
+**Conceitos:**
+- Análise de coleções por múltiplos critérios
+- Classificação por raridade e tipo
+- Estatísticas detalhadas de coleção
+- Algoritmos de recomendação
+- Busca e filtragem especializada
+
+### 📁 Exercício 20 - Jogo de Dominó Brasileiro
+**Arquivo:** `exercicio20-jogo-domino.ts`
+
+Simulação completa de jogo de dominó com regras brasileiras tradicionais.
+
+**Conceitos:**
+- Simulação de jogos com regras complexas
+- Lógica de encaixe e validação
+- Distribuição aleatória de peças
+- Estratégias básicas de jogo
+- Gestão de estado de jogo
+
+### 📁 Exercício 21 - Análise de Colecionáveis
+**Arquivo:** `exercicio21-analise-colecionaveis.ts`
+
+Sistema de análise estatística para diferentes tipos de colecionáveis.
+
+**Conceitos:**
+- Análise estatística avançada
+- Métricas de valor e raridade
+- Comparação entre categorias
+- Análise temporal por décadas
+- Recomendações de investimento
+
+### 📁 Exercício 22 - Torneio de Dominó
+**Arquivo:** `exercicio22-torneio-domino.ts`
+
+Sistema completo de torneio com classificação e estatísticas de performance.
+
+**Conceitos:**
+- Sistemas de torneio e classificação
+- Algoritmos de emparelhamento
+- Gestão de múltiplas partidas
+- Estatísticas de performance
+- Ranking e pontuação
+
 ## Como Executar os Exercícios
 
 ### Pré-requisitos
@@ -606,6 +658,13 @@ for file in exercicio1[1-7]-*.ts; do
   npx tsx "$file"
   echo
 done
+
+# Exercícios temáticos (19-22)
+for file in exercicio1[9-9]-*.ts exercicio2[0-2]-*.ts; do
+  echo "=== Executando $file ==="
+  npx tsx "$file"
+  echo
+done
 ```
 
 #### 🏆 Executar Exercícios Desafio
@@ -619,6 +678,18 @@ for file in desafio-*.ts; do
   npx tsx "$file"
   echo
 done
+```
+
+#### 🎮 Executar Exercícios Temáticos
+```bash
+# Executar exercícios da temática Sheldon/Dominó
+npx tsx exercicio19-colecao-pokemon.ts
+npx tsx exercicio20-jogo-domino.ts
+npx tsx exercicio21-analise-colecionaveis.ts
+npx tsx exercicio22-torneio-domino.ts
+
+# Problema acadêmico oficial
+npx tsx figurinhas-sheldon.ts
 ```
 
 ### Executar Todos os Exercícios
@@ -642,6 +713,12 @@ npx tsx josephus-classico.ts
 
 echo "🔧 ESTRUTURAS FUNDAMENTAIS:"
 for file in exercicio1[1-7]-*.ts; do npx tsx "$file"; done
+
+echo "🎮 TEMÁTICOS AVANÇADOS:"
+for file in exercicio1[9-9]-*.ts exercicio2[0-2]-*.ts; do npx tsx "$file"; done
+
+echo "🎯 PROBLEMA ACADÊMICO:"
+npx tsx figurinhas-sheldon.ts
 ```
 
 ### Usando Implementações em Outros Projetos
@@ -838,12 +915,12 @@ A solução eficiente usa a fórmula recursiva:
 
 ## Estatísticas da Coleção
 
-- **Total de Exercícios**: 33 arquivos principais
-- **Linhas de Código**: ~12.500+ linhas
-- **Classes Implementadas**: 66+ classes
-- **Algoritmos Cobertos**: 155+ algoritmos diferentes
-- **Estruturas de Dados**: 25+ implementações completas
-- **Tempo Estimado de Estudo**: 65-85 horas
+- **Total de Exercícios**: 37 arquivos principais
+- **Linhas de Código**: ~15.000+ linhas
+- **Classes Implementadas**: 75+ classes
+- **Algoritmos Cobertos**: 180+ algoritmos diferentes
+- **Estruturas de Dados**: 30+ implementações completas
+- **Tempo Estimado de Estudo**: 75-95 horas
 - **Aplicações Práticas**: Sistemas reais, entrevistas técnicas, competição, pesquisa
 
 ### Distribuição por Categoria
@@ -854,6 +931,7 @@ A solução eficiente usa a fórmula recursiva:
 - 📚 **Originais**: 10 exercícios + Josephus clássico
 - 🔧 **Estruturas Fundamentais**: 8 exercícios (CS core + dominó)
 - 🎯 **Problema Acadêmico**: 1 exercício (UTFPR oficial)
+- 🎮 **Temáticos Avançados**: 4 exercícios (Sheldon + Dominó)
 
 ## Aplicações no Mundo Real
 
